@@ -1,1 +1,23 @@
-/* CSS Code */
+#input {
+    float: left;
+}
+
+button {
+    margin-left: 15px;
+    width: 35px;
+    border-radius: 8px;
+    height: 20px;
+}
+
+#add {
+    background-color: #2de56e;
+    border-color: #2de56e;
+}
+
+.delete {
+    background-color: #c13a11;
+    border-color: #c13a11;
+}
+li{
+    margin-bottom: 5px;
+}
