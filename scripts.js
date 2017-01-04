@@ -25,6 +25,16 @@ $(document).ready(function(){
             updateList();
             $("#input").val("");
         }
+        else if (list[$(this).data("index")].substring(0,3) != "<s>")
+        {
+            list[$(this).data("index")] = "<s>" + list[$(this).data("index")] + "</s>";
+            updateList();
+        }
+        else
+        {
+            list[$(this).data("index")] =  list[$(this).data("index")].substring(3, list[$(this).data("index")].length-4);
+            updateList();
+        }
     });    
     }
 });
